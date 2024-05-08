@@ -5,7 +5,7 @@ from dpbotz.untils.database import add_user
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 
 
-@Client.on_callback_query(filters.regex("dp_botz"))
+@Client.on_callback_query(filters.regex("XozMovies"))
 async def chk(bot, cb : CallbackQuery):
     try:
         await bot.get_chat_member(dp1.UPDATECHANNEL_ID, cb.from_user.id)
@@ -37,16 +37,16 @@ async def about(bot,update):
 	    #⚠️ don't change source code & source link ⚠️ #
 	    text = """<b>» Mʏ Nᴀᴍᴇ: <a href='https://t.me/Auto_Accept_Dpbot'>Aᴜᴛᴏ Jᴏɪɴ Rᴇǫᴜᴇsᴛ Bᴏᴛ</a>
 ‣ Cʀᴇᴀᴛᴏʀ : <a href='tg://settings'>ᴛʜɪs Pᴇʀsᴏɴ</a>
-‣ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/MERSAL_DHINESH'>⚡DP BOTZ⚡</a>
+‣ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Xo_Bruce'>⚡Xo BOTZ⚡</a>
 ‣ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org'>Pʏʀᴏɢʀᴀᴍ</a>
 ‣ Lᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org'>Pʏᴛʜᴏɴ 3</a>
 ‣ Dᴀᴛᴀ Bᴀsᴇ : <a href='https://www.mongodb.com/'>Mᴏɴɢᴏ Dʙ</a>
 ‣ Bᴏᴛ Sᴇʀᴠᴇʀ : ‣[Vᴘs]‣<a href='https://app.koyeb.com/'>[Kᴏʏᴇʙ]</a>
-‣ Sᴏᴜʀᴄᴇ : <a href='https://t.me/dpowner_bot'>❗ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ❗</a>
+‣ Sᴏᴜʀᴄᴇ : <a href='https://t.me/Xo_Bruce'>❗ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ❗</a>
 ‣ Bᴜɪʟᴅ Sᴛᴀᴛᴜs : ᴠ3.8.3 [sᴛᴀʙʟᴇ]</b>""",
 	    reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change source code & source link ⚠️ #
-               InlineKeyboardButton("❗ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ❗", url="https://t.me/dpowner_bot")],[
+               InlineKeyboardButton("❗ Sᴏᴜʀᴄᴇ Cᴏᴅᴇ ❗", url="https://t.me/Xo_Bruce")],[
                InlineKeyboardButton("→ Bᴀᴄᴋ", callback_data = "about")
                ]]
             )
