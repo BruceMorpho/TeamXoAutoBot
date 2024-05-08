@@ -15,12 +15,12 @@ async def chk(bot, cb : CallbackQuery):
                 InlineKeyboardButton("✛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀɴɴᴇʟ ࿇", url=f"https://t.me/{dp1.BOT_USERNAME}?startchannel=Bots4Sale&admin=invite_users+manage_chat")],[
                 InlineKeyboardButton("✛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ࿇", url=f"https://t.me/{dp1.BOT_USERNAME}?startgroup=Bots4Sale&admin=invite_users+manage_chat")
                  ],[
-                InlineKeyboardButton("💥 Uᴘᴅᴀᴛᴇs 💥", url="https://t.me/DP_BOTZ"),
-                InlineKeyboardButton("💙 Sᴜᴘᴘᴏʀᴛ 💙", url="https://t.me/All_Tamil_movies_request")
+                InlineKeyboardButton("💥 Uᴘᴅᴀᴛᴇs 💥", url="https://t.me/xomoviesdiscussion"),
+                InlineKeyboardButton("💙 Sᴜᴘᴘᴏʀᴛ 💙", url="https://t.me/XozMovies")
                 ],[
                 InlineKeyboardButton("⚡ Aʙᴏᴜᴛ ⚡", callback_data = "about")
                     ],[
-                InlineKeyboardButton("🎬 movies group 🎬", url="https://t.me/All_Tamil_movies_request")
+                InlineKeyboardButton("🎬 movies group 🎬", url="https://t.me/xomoviesdiscussion")
                 
             ]])            
             add_user(cb.from_user.id)
